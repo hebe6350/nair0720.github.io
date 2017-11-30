@@ -1,0 +1,101 @@
+nav a{
+	text-decoration: none;
+}
+nav ul {
+	list-style: none;
+}
+body {
+	/*Start Position CSS*/
+	margin: 0;
+	padding: 1em;
+	/*End Position CSS*/
+}
+
+.header {
+
+	/*Start Position CSS*/
+	height: 54px;
+	color: white;
+	border-bottom: 1px solid #3c7796;
+	padding: 1em;
+	/*End Position CSS*/
+
+	background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Tokyo_from_the_top_of_the_SkyTree_%28cropped%29.JPG/1500px-Tokyo_from_the_top_of_the_SkyTree_%28cropped%29.JPG);
+	background-repeat: repeat-x;
+
+	text-align: center;
+	font: bold 3em seri;
+}
+
+.maintext {
+
+	/*Start Position CSS*/
+	width: 640px;
+	float: left;
+	margin: 0;
+	padding: 1em;
+	border-left: 1px solid #3c7796;
+	background-color: white;
+	/*End Position CSS*/
+}
+
+.links {
+
+	/*Start Position CSS*/
+	width: 150px;
+	float: left;
+	margin: 0;
+	padding: 1em;
+	bottom: 0px;
+	background-color: #0090FF;
+	/*End Position CSS*/
+}
+
+a:visited {
+    text-decoration-color: purple;
+}
+a:active {
+    text-decoration-color: red;
+}
+a:hover{
+    text-decoration: underline
+}
+h1 {
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+	color: #239100;
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+	color: blue;
+}
+
+.container {
+
+	/*Start Position CSS*/
+	width: 855px;
+	margin: auto;
+	text-align: left;
+	border: 1px solid #3c7796;
+	/*End Position CSS*/
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+}
+
+.table {
+    text-align: center;
+}
+img {
+    display: inline-block
+}
